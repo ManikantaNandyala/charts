@@ -185,7 +185,8 @@ statefulset:
 
   # Node selection constraints for scheduling Pods of this StatefulSet.
   # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector
-  nodeSelector: {}
+  nodeSelector: {
+  }
 
   # Taints to be tolerated by Pods of this StatefulSet.
   # https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
